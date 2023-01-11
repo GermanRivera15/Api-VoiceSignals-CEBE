@@ -1,0 +1,41 @@
+@import url('Colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Itim&family=Mukta:wght@200;300;400;500;600;700;800&family=Prompt:wght@300;400;600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Dancing+Script:wght@700&family=Itim&family=Mukta:wght@200;300;400;500;600;700;800&family=Prompt:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.App {
+  font-family: 'Oxygen', sans-serif;
+  height: 100%;
+  background: var(--background-app);
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--background-webkit-scrollbar);
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb*/
+::-webkit-scrollbar-thumb {
+  background: var(--background-webkit-scrollbar-thumb);
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover*/
+::-webkit-scrollbar-thumb:hover {
+  background: var(--background-webkit-scrollbar-thumb-hover);
+  box-shadow: 0 0 2px 1px var(--box-shadow-webkit-scrollbar-thumb-hover);
+}
+
+/* Cambiamos el fondo cuando esté en active*/
+::-webkit-scrollbar-thumb:active {
+  background-color: var(--background-webkit-scrollbar-thumb-active);
+}

@@ -1,0 +1,32 @@
+:root {
+  /* ---------------------------------------------------------------------------------------- */
+  /* App principal */
+  --background-app: rgb(151, 177, 214);;
+
+  /* ---------------------------------------------------------------------------------------- */
+  /* Scroll */
+  --background-webkit-scrollbar: rgba(56, 56, 56, 0.878);
+  --background-webkit-scrollbar-thumb: rgba(104, 104, 104, 0.859);
+  --background-webkit-scrollbar-thumb-hover: rgba(136, 136, 136, 0.878);
+  --box-shadow-webkit-scrollbar-thumb-hover: rgba(245, 245, 245, 0.44);
+  --background-webkit-scrollbar-thumb-active: rgba(202, 202, 202, 0.769);
+
+  /* ---------------------------------------------------------------------------------------- */
+  /* Navegation */
+  --background-navegation: #283b71;
+  --background-navegation-offcanvas: #2b3c6b;
+  --background-navegation-header-offcanvas: #1F2946;
+  --white: #ffffff;
+
+  /* ---------------------------------------------------------------------------------------- */
+  /* Dictionary */
+  --background-dictionary: rgb(151, 177, 214);
+
+  /* ----------------------------------------------------------------------------------------- */
+  /* Footer */
+  --background-footer: rgb(36, 38, 43);
+  
+  /* ----------------------------------------------------------------------------------------- */
+  --background-container-item:#2E92C7;
+  --color-font-lyric:rgb(27, 47, 77);
+}

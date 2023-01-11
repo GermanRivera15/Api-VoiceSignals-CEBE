@@ -1,0 +1,90 @@
+/** Component Sign Language*/
+.container-show-signLanguage{
+  width: 650px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-signLanguage{
+  visibility: visible;
+}
+
+.title-signLanguage{
+  font-size: 30px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
+}
+
+.text-description{
+  padding: 35px 10px;
+  text-align: justify;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.visibility{
+  visibility: hidden;
+}
+
+.loading-clipLoader{
+  margin: 80px 0 0 0;
+}
+
+
+
+/* Icon Prev */
+.container-prev{
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.container-prev a{
+  text-decoration: none;
+  color: var(--color-font-lyric);
+  font-family: 'Gentium Book Basic', serif, Arial, Helvetica;
+  font-size: 20px;
+}
+
+.container-nav-prev{
+  display: flex;
+  border-bottom: 1px solid azure;
+}
+
+.container-nav-prev .nav-item a{
+  padding: 5px 10px 5px 10px;
+}
+
+
+@media only screen and (max-width: 740px) {
+  .container-show-signLanguage{
+      width: 80%;
+      margin: 30px auto;
+  }
+  .container-signLanguage .LazyLoad {
+    width: 240px !important;
+    height: 240px !important;
+  }
+
+  .col-sm {
+      flex: none !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container-signLanguage .LazyLoad {
+    width: 180px !important;
+    height: 180px !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .container-signLanguage .LazyLoad {
+    width: 140px !important;
+    height: 140px !important;
+  }
+}

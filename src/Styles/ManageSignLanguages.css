@@ -1,0 +1,354 @@
+/*? Show Sign Language*/
+.container-sign-language {
+  font-family: 'Mukta', sans-serif, serif, Arial, Helvetica;
+  margin: 30px 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.table-sign {
+  margin: 20px 0 0 0;
+}
+
+.container-cad-senias {
+  width: 50%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.table-senia-tr {
+  text-align: center;
+}
+
+.view-img{
+  width: 75px;
+  font-size: 15px;
+}
+
+.container-img{
+  display: flex;
+  justify-content: center;
+}
+
+.table-senia-tr th:nth-child(1) {
+  width: 5%;
+  min-width: 10px;
+}
+
+.table-senia-tr th:nth-child(2) {
+  width: 55%;
+  min-width: 100px;
+}
+
+.table-senia-tr th:nth-child(3) {
+  width: 20%;
+  min-width: 140px;
+}
+
+.table-senia-tr th:nth-child(4) {
+  width: 20%;
+  min-width: 120px;
+}
+
+.table-senia-tbody tr td:nth-child(4) .contanier-options{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+
+/** Check input*/
+.form-check-input{
+  background-color: var(--color-font-lyric) !important;
+  width: 35px !important;
+  border: 0;
+}
+
+.form-check-input:hover{
+  cursor: pointer;
+}
+.form-switch .form-check-input{
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23fff%27/%3e%3c/svg%3e");
+}
+
+.form-check-input:checked{
+  background-color: #D82E2E !important;
+}
+
+
+.title-manage-sign-language{
+  font-family: 'Mukta', sans-serif, serif, Arial, Helvetica;
+  font-weight: 600;
+  font-size: 35px;
+  color: var(--color-font-lyric);
+  padding: 10px 20px;
+
+}
+
+
+/** Vigencia and color*/
+.vigente {
+  color: var(--color-font-lyric) !important;
+  font-weight: 400;
+}
+
+.no-vigente {
+  color: #D82E2E !important;
+}
+
+.table-hover > tbody > tr:hover > *{
+  color: unset !important
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  color: unset !important
+}
+
+
+.container-option-filter{
+  margin: 10px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.container-body-option-add{
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.container-body-option-add a:first-child{
+  width: 150px;
+}
+
+.container-body-option-add a:last-child{
+  width: 150px;
+}
+
+.acordion-header-title button{
+  font-family: 'Mukta', sans-serif, serif, Arial, Helvetica;
+  font-weight: 700;
+  color: hsl(224, 57%, 24%);
+}
+
+.result-filter{
+  margin: 10px 20px 10px 20px;
+}
+
+.result-filter h5{
+  font-size: 18px;
+  color: var(--color-font-lyric);
+}
+
+.element-data-title{
+  font-family: 'Mukta', sans-serif, serif, Arial, Helvetica;
+  font-weight: 700;
+  color: var(--color-font-lyric);
+}
+
+.element-data{
+  font-family: 'Mukta', sans-serif, serif, Arial, Helvetica;
+  font-weight: 400;
+  color: var(--color-font-lyric);
+}
+
+
+/** Add New Sign Language*/
+.btn-Create {
+  position: absolute;
+  right: 0;
+  margin: 0 20px 50px 0;
+  font-size: 15px;
+}
+
+
+/** Pagination Crud*/
+.pagination {
+  /* width: 80%; */
+  /* height: 40px; */
+  /* list-style: none; */
+  /* display: flex; */
+  /* align-items: center; */
+  margin: 40px auto 0 auto;
+  justify-content: center;
+}
+
+.pagination a {
+  padding: 6px 8px 6px 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  color: white;
+  background-color: #324a8d;
+}
+
+.active a {
+  color: white;
+  background-color: #586ca5;
+}
+
+.paginationDisabled a {
+  color: rgb(221, 221, 221);
+  background-color: rgb(129, 129, 129);
+}
+
+.form-control:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+/** Table*/
+@media only screen and (max-width: 600px) {
+  .container-cad-senias{
+    width: 90%;
+    min-width: 90%;
+    font-size: 14px;
+  }
+
+  .view-img{
+    width: 70px;
+    font-size: 14px;
+  }
+
+  .table-senia-tr th:nth-child(3) {
+    width: 90px;
+    min-width: 90px;
+  }
+  
+  .table-senia-tr th:nth-child(4) {
+    width: 90px;
+    min-width: 90px;
+  }
+
+  .table-senia-tbody tr td:nth-child(4) .contanier-options{
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .container-sign-language {
+    margin: 30px 10px;
+  }
+
+  .container-cad-senias{
+    width: 100%;
+    min-width: 100%;
+    font-size: 13px;
+  }
+
+  .view-img{
+    width: 65px;
+    font-size: 13px;
+  }
+
+  .table-senia-tr th:nth-child(3) {
+    width: 85px;
+    min-width: 85px;
+  }
+  
+  .table-senia-tr th:nth-child(4) {
+    width: 90px;
+    min-width: 90px;
+  }
+
+  .table-senia-tbody tr td:nth-child(4) .contanier-options{
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+
+  .title-manage-sign-language{
+    font-size: 28px;
+  }
+
+}
+
+
+
+/*? Create Sign Language*/
+.container-add-sign-language {
+  width: 750px;
+  margin: 20px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  /* grid-gap: 20px; */
+}
+
+/* Icon Close */
+.container-close{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -30px;
+}
+
+.icon-close{
+  font-size: 35px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--color-font-lyric);
+}
+
+
+.container-add-body {
+  padding: 20px 60px 20px 60px;
+}
+
+@media only screen and (max-width: 870px) {
+  .container-add-sign-language {
+    width: 85%;
+  }
+
+  .container-add-body {
+    padding: 20px 40px 20px 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container-add-sign-language {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* .container-add-sign-language {
+    width: 80%;
+  } */
+  .icon-close{
+    font-size: 30px;
+  }
+}
+
+
+/*? Create Dictionary*/
+.container-add-dictionary {
+  width: 650px;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .container-add-dictionary {
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-add-dictionary {
+    width: 85%;
+  }
+}

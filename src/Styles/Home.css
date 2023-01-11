@@ -1,0 +1,154 @@
+/* ------------------------------------- */
+.span {
+  display: block;
+  font-family: 'Dancing Script', serif, Arial, Helvetica;
+  font-weight: 700;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 10ch;
+  font-size: 50px;
+  animation: escribir 3.5s steps(16) infinite  alternate;
+  overflow: hidden;
+  margin: 10px 0 30px 80px;
+  color: #18264e;
+}
+
+@keyframes escribir {
+  from { width: 0 }
+  to{ width:100 }  
+}
+
+@keyframes blink {
+  50%{ border-color: transparent}
+}
+
+
+/* ------------------------------------- */
+.title-vision-mision-history{
+  text-align: center;
+  font-family: 'Mukta', sans-serif, serif, Arial, Helvetica;
+  font-weight: 700;
+  font-size: 28px;
+  color: #18264e;
+}
+
+.contenedor-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.container-mision-vision{
+  display: flex;
+  flex-direction: row;
+  grid-gap: 10px;
+}
+
+
+.contenedor-2 Figure {
+  width: 250px;
+  height: 250px;
+
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+  cursor: pointer;
+}
+
+.contenedor-2 Figure.Image {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.contenedor-2 Figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 103, 123, 0.6);
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.contenedor-2 Figure:hover>.capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.contenedor-2 Figure:hover>.capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.contenedor-2 Figure .capa h3 {
+  color: rgb(32, 30, 30);
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+
+.contenedor-2 Figure .capa p {
+
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
+.contenedor-2 Figure:hover>Figure.Image {
+  transform: scale(1.3);
+}
+
+.contenedor-2 h2{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 870px) {
+  .contenedor-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-vision-mision-history{
+    font-size: 26px;
+  }
+
+  .span {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-mision-vision {
+    flex-direction: column;
+  }
+
+  .contenedor-2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .title-vision-mision-history{
+    font-size: 24px;
+  }
+
+  .span {
+    font-size: 40px;
+  }
+
+}
+
+
+
+
+
+
+
+
