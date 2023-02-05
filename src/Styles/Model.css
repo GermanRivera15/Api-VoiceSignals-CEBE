@@ -1,3 +1,17 @@
 .container-model{
     display: grid;
+    /* grid-gap: 20px; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    padding: 20px;
+}
+
+.container-model li{
+    display: inline-block;
+    border: 1px solid red;
+    /* width: min-content;
+    height: min-content; */
+}
+
+.container-model li .model{
+    width: auto !important;
 }
