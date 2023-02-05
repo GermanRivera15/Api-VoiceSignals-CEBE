@@ -19,6 +19,9 @@ import CreateCategory from '../components/Dictionary/Manage-Dictionary/CreateCat
 import TranslatorSL from '../pages/Translator-SL'
 import NotPage from '../pages/NotPage'
 
+import Model from '../pages/models'
+
+
 export default function AppRouter() {
   return (
     <section>
@@ -44,6 +47,7 @@ export default function AppRouter() {
             <Route path='manage-dictionary/create-sign-language' element={<CreateSignLanguage />} />
 
             <Route path='favorites/:signId' element={<SignLanguageFavorite />} />
+            <Route path='model' element={<Model />} />
 
 
             
