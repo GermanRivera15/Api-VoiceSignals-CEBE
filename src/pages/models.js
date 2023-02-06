@@ -7,7 +7,7 @@ export default function Models() {
     { Code: 1, Name: "/models/model/bmw.glb", Poster:'/models/poster/avatarTest.JPG'},
     { Code: 2, Name: "/models/model/hand.glb", Poster:'/models/poster/avatarTest.JPG'},
     { Code: 3, Name: "/models/model/bmw.glb", Poster:'/models/poster/avatarTest.JPG'},
-    { Code: 4, Name: "/models/model/hand.glb", Poster:'/models/poster/avatarTest.JPG'},
+    { Code: 4, Name: "/models/model/Hand-model2.glb", Poster:'/models/poster/avatarTest.JPG'},
     { Code: 5, Name: "/models/model/bmw.glb", Poster:'/models/poster/avatarTest.JPG'},
     { Code: 6, Name: "/models/model/bmw.glb", Poster:'/models/poster/avatarTest.JPG'},
     { Code: 7, Name: "/models/model/hand.glb", Poster:'/models/poster/avatarTest.JPG'},
