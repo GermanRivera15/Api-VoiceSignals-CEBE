@@ -7,7 +7,7 @@ import QRContainer from '../components/QRContainer';
 export default function QRExample() {
   return (
     <div>
-      <h1> QR</h1>
+      <h1> QR Example</h1>
 
       <div className='qr-container'>
         <QRContainer section={'melyssa'} title={'Example video'} />

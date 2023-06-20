@@ -11,7 +11,7 @@ export default class QRContainer extends Component {
         <h2>{this.props.title}</h2>
          <QRCode
           size={256}
-          style={{ height: "auto", maxWidth: "100%", width: "100%" }}
+          style={{ height: "auto", maxWidth: "50%", width: "50%" }}
           value={'https://voicesignals.netlify.app/' + this.props.section}
           viewBox={`0 0 256 256`}
         />

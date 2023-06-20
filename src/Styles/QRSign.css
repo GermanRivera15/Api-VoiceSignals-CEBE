@@ -1,10 +1,4 @@
 .qr-container {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center; */
-
-  background-color: var(--background-dictionary);
   width: 90%;
   margin: auto;
   display: grid;
@@ -18,4 +12,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .qr-container {
+    width: 80%;
+    /* margin: auto; */
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 5fr));
+    grid-gap: 20px 20px;
+    /* padding: 0px 0 25px 0; */
+  
+  }
 }
