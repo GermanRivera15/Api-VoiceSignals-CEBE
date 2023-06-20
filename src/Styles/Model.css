@@ -1,7 +1,7 @@
 .container-model{
     display: grid;
     /* grid-gap: 20px; */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
     padding: 20px;
 }
 
