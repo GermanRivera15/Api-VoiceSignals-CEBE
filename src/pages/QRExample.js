@@ -1,12 +1,23 @@
 import React from 'react'
-import QRCode from "react-qr-code"
+import QRContainer from '../components/QRContainer';
+
+// import QRCode from "react-qr-code"
 
 
 export default function QRExample() {
   return (
-    <div className="qr-container">
+    <div>
       <h1> QR</h1>
-      <QRCode value="https://voicesignals.netlify.app/melyssa" />
+
+      <div className='qr-container'>
+        <QRContainer section={'melyssa'} title={'Example video'} />
+        <QRContainer section={'home'} title={'Inicio'} />
+        <QRContainer section={'translator-sl'} title={'translator-sl'} />
+
+
+      </div>
+
+
     </div>
   )
 }
