@@ -6,7 +6,7 @@ export default function QRExample() {
   return (
     <div className="qr-container">
       <h1> QR</h1>
-      <QRCode value="www.google.com" />
+      <QRCode value="https://voicesignals.netlify.app/melyssa" />
     </div>
   )
 }
