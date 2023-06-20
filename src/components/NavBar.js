@@ -77,6 +77,8 @@ export default function NavBar() {
           <NavLink to='/dictionary' onClick={handleClose}>Diccionario</NavLink>
           {/* <NavLink to='/learn-sl' onClick={handleClose}>Aprender LS</NavLink> */}
           <NavLink to='/translator-sl' onClick={handleClose}> Traductor de LS</NavLink>
+          
+          <NavLink to='/qr-example' onClick={handleClose}> QR Sign</NavLink>
 
           {isAuthenticated ?
             (
@@ -154,12 +156,14 @@ export default function NavBar() {
               <NavLink to='/dictionary' onClick={handleClose}>Diccionario</NavLink>
               {/* <NavLink to='/learn-sl' onClick={handleClose}>Aprender Lenguaje de Señas</NavLink> */}
               <NavLink to='/translator-sl' onClick={handleClose}> Traductor de Lenguaje de Señas</NavLink>
+              <NavLink to='/qr-example' onClick={handleClose}> QR Sign</NavLink>
             
               {
                 isAuthenticated ?
                   (
                     <div className='container-items-login'>
                       <NavLink to='/favorites' onClick={handleClose}>Favoritos</NavLink>
+                      
                       {
                         userAdminister.length!==0 &&(
                           <NavLink to='/manage-dictionary' onClick={handleClose}>Gestionar Diccionario</NavLink>
