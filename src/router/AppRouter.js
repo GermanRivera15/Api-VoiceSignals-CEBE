@@ -18,9 +18,9 @@ import CreateDictionary from '../components/Dictionary/Manage-Dictionary/CreateD
 import CreateCategory from '../components/Dictionary/Manage-Dictionary/CreateCategory'
 import TranslatorSL from '../pages/Translator-SL'
 import NotPage from '../pages/NotPage'
-import Example from '../pages/Melyssa'
+import VideoSign from '../pages/VideoSign'
 
-import ExampleQR from '../pages/QRExample'
+import QRSign from '../pages/QRSign'
 
 
 import Model from '../pages/models'
@@ -53,9 +53,9 @@ export default function AppRouter() {
             <Route path='favorites/:signId' element={<SignLanguageFavorite />} />
             <Route path='model' element={<Model />} />
 
-            <Route path='melyssa' element={<Example/>} />
+            <Route path='Video-sign' element={<VideoSign/>} />
 
-            <Route path='qr-example' element={<ExampleQR/>} />
+            <Route path='qr-sign' element={<QRSign/>} />
 
             
             <Route path='*' element={<NotPage />} />

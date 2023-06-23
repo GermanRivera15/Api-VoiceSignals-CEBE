@@ -1,0 +1,42 @@
+.container-video-sign {
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.video {
+  width: 70%;
+  height: 70%;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.container-second{
+  grid-gap:20px;
+}
+
+.col-video {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 740px) {
+  .container-second{
+    grid-gap: 5px;
+  }
+
+  .container-video-sign {
+    width: 80%;
+    margin: 30px auto;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .container-video-sign {
+    width: 90%;
+    margin: 30px auto;
+  }
+}

@@ -78,7 +78,8 @@ export default function NavBar() {
           {/* <NavLink to='/learn-sl' onClick={handleClose}>Aprender LS</NavLink> */}
           <NavLink to='/translator-sl' onClick={handleClose}> Traductor de LS</NavLink>
           
-          <NavLink to='/qr-example' onClick={handleClose}> QR Sign</NavLink>
+          <NavLink to='/qr-sign' onClick={handleClose}> QR Sign</NavLink>
+          <NavLink to='/video-sign' onClick={handleClose}> Video</NavLink>
 
           {isAuthenticated ?
             (
@@ -156,7 +157,8 @@ export default function NavBar() {
               <NavLink to='/dictionary' onClick={handleClose}>Diccionario</NavLink>
               {/* <NavLink to='/learn-sl' onClick={handleClose}>Aprender Lenguaje de Señas</NavLink> */}
               <NavLink to='/translator-sl' onClick={handleClose}> Traductor de Lenguaje de Señas</NavLink>
-              <NavLink to='/qr-example' onClick={handleClose}> QR Sign</NavLink>
+              <NavLink to='/qr-sign' onClick={handleClose}> QR Sign</NavLink>
+              <NavLink to='/video-sign' onClick={handleClose}> Video</NavLink>
             
               {
                 isAuthenticated ?

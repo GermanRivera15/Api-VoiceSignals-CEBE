@@ -4,7 +4,7 @@ import QRContainer from '../components/QRContainer';
 // import QRCode from "react-qr-code"
 
 
-export default function QRExample() {
+export default function QRSign() {
   return (
     <div>
       <h1> QR Example</h1>
