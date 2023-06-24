@@ -27,7 +27,7 @@ export default function QRSign() {
           <div className='qr-container'>
             <QRContainer section={process.env.REACT_APP_URL + '/home'} title={'INICIO'} />
             <QRContainer section={process.env.REACT_APP_URL + '/translator-sl'} title={'TRADUCTOR DE LENGUAJE DE SEÑAS PERUANO'} />
-            <QRContainer section={'https://voicesignals.us.auth0.com/login?state=hKFo2SBtNUFrbzBoQmxoLVhBaTBXRkhVUVY4ZlVCcFotcEMxYaFupWxvZ2luo3RpZNkgSlFValhWWUNEVUJ4UV9yNHBKczZZRnpnX3dZLTlNMVKjY2lk2SBYd1Q3Znl2emZVaVJSSWpaQUNpeU84S3VOM3M3cnlBeg&client=XwT7fyvzfUiRRIjZACiyO8KuN3s7ryAz&protocol=oauth2&redirect_uri=http%3A%2F%2Flocalhost%3A3000&scope=openid%20profile%20email&response_type=code&response_mode=query&nonce=MGVyTV9hdm0zSDhIUXF2T3BTTGUzcTZvc08td3J%2BTnQ3TllYWkpUdE5CLg%3D%3D&code_challenge=rIf4uKxC8QERgJ10DgQ2485BTXsYtX1AX0UTdspmhnA&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMS4xMi4wIn0%3D'} title={'INICIAR SESIÓN'} />
+            <QRContainer section={process.env.REACT_APP_URL + '/login'} title={'INICIAR SESIÓN'} />
           </div>
         </Card.Body>
         </ Card>
