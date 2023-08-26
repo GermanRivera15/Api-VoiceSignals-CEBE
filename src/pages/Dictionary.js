@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React /*, { useEffect, useState }*/ from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { BsSearch } from "react-icons/bs";
 import ContainerItem from '../components/ContainerItem';
 import axios from 'axios';
 // import ClipLoader from "react-spinners/ClipLoader";
+
+import categories from '../components/Data.json'
 
 import '../Styles/Dictionary.css';
 
@@ -13,7 +15,8 @@ import '../Styles/Dictionary.css';
 
 
 export default function Dictionary() {
-  const [categories, setCategories] = useState([]);
+  // const [categories, setCategories] = useState([]);
+  
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -32,14 +35,19 @@ export default function Dictionary() {
   // }, [])
 
 
-  useEffect(() => {
-    getAllCategories();
-  }, [])
+  // useEffect(() => {
+  //   //getAllCategories();
+  //   listaCategorias.map(xmap=>(
+  //     setCategories(listaCategorias)
+  //   ))
+    
 
-  const getAllCategories = async () => {
-    const response = await axios.get(process.env.REACT_APP_DATABASE_URL + '/api/category-vigentes-sign-language')
-    setCategories(response.data)
-  }
+  // }, [])
+
+  // const getAllCategories = async () => {
+  //   const response = await axios.get(process.env.REACT_APP_DATABASE_URL + '/api/category-vigentes-sign-language')
+  //   setCategories(response.data)
+  // }
 
   const searchSignLanguage = async () => {
     const nombreSearch = document.getElementById('value-input');

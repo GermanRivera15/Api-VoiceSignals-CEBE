@@ -1,0 +1,56 @@
+[
+    {
+      "Code": 1,
+      "Type": "Abecedario",
+      "UrlImage": "1hcsxW_lYGTc3xGzg8pSjVtL86-Nm9iTb",
+      "Vigente": 1
+    },
+    {
+      "Code": 2,
+      "Type": "Números",
+      "UrlImage": "1bIfGTtpNr77meQhoQmdROl5vAv2beosn",
+      "Vigente": 1
+    },
+    {
+      "Code": 3,
+      "Type": "Relaciones Familiares y Personales",
+      "UrlImage": "1m0mjM-2yCFQsD5dDBsNUqfx4QIfH_Tw_",
+      "Vigente": 1
+    },
+    {
+      "Code": 4,
+      "Type": "Frutas",
+      "UrlImage": "1SmBtYu3xILGK6rE2IcUvqobOq7I0Ucjl",
+      "Vigente": 1
+    },
+    {
+      "Code": 5,
+      "Type": "Verduras",
+      "UrlImage": "1XVLQptsvOil9MUBCjBLJdVxg2K6Yb9FP",
+      "Vigente": 1
+    },
+    {
+      "Code": 6,
+      "Type": "Bebidas",
+      "UrlImage": "1gElY7qDyVjVM0Hajz7YbIPepz_k_0tWG",
+      "Vigente": 1
+    },
+    {
+      "Code": 7,
+      "Type": "Alimentos",
+      "UrlImage": "",
+      "Vigente": 1
+    },
+    {
+      "Code": 8,
+      "Type": "Cuerpo Humano",
+      "UrlImage": "",
+      "Vigente": 1
+    },
+    {
+      "Code": 9,
+      "Type": "Example",
+      "UrlImage": "example.jpg",
+      "Vigente": 1
+    }
+  ]

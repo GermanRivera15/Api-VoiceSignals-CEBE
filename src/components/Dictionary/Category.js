@@ -55,6 +55,7 @@ export default function Category() {
       setSignLanguage(response.data)
     }
     getAllSignLanguagesCategory();
+    console.log(params.categoryId)
   }, [params])
 
 
