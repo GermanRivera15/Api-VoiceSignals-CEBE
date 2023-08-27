@@ -1,4 +1,5 @@
-[
+{
+  "categories":[
     {
       "Code": 1,
       "Type": "Abecedario",
@@ -46,11 +47,795 @@
       "Type": "Cuerpo Humano",
       "UrlImage": "",
       "Vigente": 1
-    },
-    {
-      "Code": 9,
-      "Type": "Example",
-      "UrlImage": "example.jpg",
-      "Vigente": 1
     }
+  ],
+
+  "signs":[
+      {
+        "Code": 1,
+        "Title": "Letra A",
+        "Description": "Colocar la mano izquierda con la palma hacia delante flexionando todos los dedos y el pulgar hacia afuera.",
+        "UrlImage": "1hcsxW_lYGTc3xGzg8pSjVtL86-Nm9iTb",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 2,
+        "Title": "Letra B",
+        "Description": "Colocar hacían delante la palma de la mano, flexionando el dedo pulgar.",
+        "UrlImage": "13b445Jh9-oXYHDqo4M5Pk2JSECgK6wf1",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 3,
+        "Title": "Letra C",
+        "Description": "Juntan los dedos  de la mano derecha y arquear los dedos de la mano hasta formar la letra C.",
+        "UrlImage": "1zDTml3-qUWUDnf9JVDbjlwZRNDyvEvh1",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 4,
+        "Title": "Letra D",
+        "Description": "Estirar la palma de la mano hacia delante y flexionar los dedos excepto el dedo índice, formando un círculo.",
+        "UrlImage": "1nNwlV6xfr8Pa3ArZ11PB6AtcDxzdJ4xX",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 5,
+        "Title": "Letra E",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, luego juntar los dedos y semi flexionar los dedos hasta una parte.",
+        "UrlImage": "1bdEfY5GcHnX7MMD2rwWUc-f6rLRkdiTQ",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 6,
+        "Title": "Letra F",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, luego flexionar solo el dedo índice y el dedo pulgar y los demás dedos quedan derechos.",
+        "UrlImage": "1XBu3gJWfJiduFXJche4D5k7EKbHlfw-d",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 7,
+        "Title": "Letra G",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, luego cerrar los dedos a excepción de los dedos índice y pulgar, y estirar los dedos índice y pulgar hacia delante.",
+        "UrlImage": "1ewEG3qYBdvDv6NjB3iPrvi5N8ES3Qdsb",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 8,
+        "Title": "Letra H",
+        "Description": "Estirar los dedos hacia delante, el dedo índice y el dedo medio, y el dorso queda al frente y los demás dedos quedan flexionados.",
+        "UrlImage": "11nl9HLJlX3xFxpP3ZWP5bZywrv1fHCzu",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 9,
+        "Title": "Letra I",
+        "Description": "Formar con la mano un puño cerrado y extender el dedo meñique hacia arriba.",
+        "UrlImage": "16EFRVv6bG5cXeJIwSAmZFEW1ujBb7AcO",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 10,
+        "Title": "Letra J",
+        "Description": "Formar con la mano un puño cerrado y extender el dedo meñique hacia arriba, luego flexionar la muñeca hacia la derecha.",
+        "UrlImage": "1hf_5MKUKWRDi9qVymKqmN3xXX0gM59ib",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 11,
+        "Title": "Letra K",
+        "Description": "Formar con la mano un puño cerrado y estirar los dedos del medio e índice hacia arriba, luego el dedo pulgar lo colocarmos en medio de los dedos del medio e índice.",
+        "UrlImage": "1a-BJpg7vlOCErKGtCeTY7vtjy9l_l86k",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 12,
+        "Title": "Letra L",
+        "Description": "Formar con la mano un puño cerrado y estirar el dedo índice y el dedo pulgar.",
+        "UrlImage": "1k0AEOzXE4yWfGK8GOX16PNLNaldkBboA",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 13,
+        "Title": "Letra M",
+        "Description": "Formar con la mano un puño cerrado y levantar el brazo hasta la altura del hombro, luego extender los dedos índice, medio y el dedo anular hacia abajo.",
+        "UrlImage": "1PLI8IyYortOKWkfWxbNeQeNhJH1dWFmh",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 14,
+        "Title": "Letra N",
+        "Description": "Formar con la mano un puño cerrado y levantar el brazo hasta la altura del hombro, luego extender los dedos índice, medio y el dedo anular hacia abajo. Posteriormente flexionar el dedo anular.",
+        "UrlImage": "1RLBIm251m22sTu8yXgQSPiOjTMje9bip",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 15,
+        "Title": "Letra Ñ",
+        "Description": "Formar con la mano un puño cerrado y levantar el brazo hasta la altura del hombro, luego extender los dedos índice, medio y el dedo anular hacia abajo. Posteriormente flexionar el dedo anular y hacer movimientos de izquierda a derecha.",
+        "UrlImage": "1gXmeboiYkEteMTIiFwtSs6rqTsRJ2w0k",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 16,
+        "Title": "Letra O",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo y todas las puntitas de los dedos se tocan con el dedo pulgar.",
+        "UrlImage": "1-xXsyfK5q1StwcsEm3R_qloNztOn_AhI",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 17,
+        "Title": "Letra P",
+        "Description": "Formar con la mano un puño cerrado y levantar el brazo hasta la altura del hombro, luego extender los dedos índice, medio y el dedo anular hacia abajo. Posteriormente flexionar el dedo anular, y flexionamos el dedo medio y lo colocamos encima del dedo índice.",
+        "UrlImage": "14OCT-R6DmZty73NlLqG0AKlZAC2JpMjk",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 18,
+        "Title": "Letra Q",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, luego cerrar los dedos a excepción de los dedos índice y pulgar, estirar los dedos índice y pulgar hacia delante, y flexionar la muñeca hacia abajo.",
+        "UrlImage": "1IO8BKi8c5-qHW5MIWXLzdFdcDq1jWpJg",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 19,
+        "Title": "Letra R",
+        "Description": "Entrelazar los dedo índice y dedo medio de la mano, flexionando los demás dedos.",
+        "UrlImage": "1D0a1SBES8VYLo4athfJIBkElmimzMy1G",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 20,
+        "Title": "Letra S",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formar un puño cerrado.",
+        "UrlImage": "16UOc7_aPasLSkJvbt39g4_rF-XcJFypR",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 21,
+        "Title": "Letra T",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formar un puño cerrado, luego estirar los dedos índice y pulgar hacia arriba, y recostar el dedo índice encima del dedo pulgar.",
+        "UrlImage": "1PwWCXZfZwYxYetn1u9g4MJR3IYg9Y8nq",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 22,
+        "Title": "Letra U",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formar un puño cerrado, luego estirar los dedos meñique e índice hacia arriba.",
+        "UrlImage": "1ByXYcnNk8T_H1MoLdRK89l1ctRijm8fN",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 23,
+        "Title": "Letra V",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formar un puño cerrado, luego estirar los dedos índice y dedo medio hacia arriba.",
+        "UrlImage": "1GupIL3BC4OjZgLF0yNX53qF-t5ExfuC_",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 24,
+        "Title": "Letra W",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formar un puño cerrado, luego estirar los dedos índice, dedo medio y dedo anular hacia arriba.",
+        "UrlImage": "1CVahTASDAlp2gLsZfG7nldFEPUgYtCn_",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 25,
+        "Title": "Letra X",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formar un puño cerrado, luego estirar el dedo índice y lo flexionamos un poco hacia delante.",
+        "UrlImage": "17OuSQ5CXOpqXG-KolxM_JvJc7JXLiN9v",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 26,
+        "Title": "Letra Y",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formar un puño cerrado, luego estirar los dedos meñique y pulgar hacia arriba.",
+        "UrlImage": "1IRtxHCFrHgFFqTOZCdW0v7MJW3K1Th0q",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 27,
+        "Title": "Letra Z",
+        "Description": "Colocar el dedo índice (en posición de señalar algo u alguien) y luego desplazamos la mano formando la letra \"Z\".",
+        "UrlImage": "1qVqH8wOWbfHc94ROJq2QOcI_tDJtdlP1",
+        "CodeCategory": "Abecedario"
+      },
+      {
+        "Code": 28,
+        "Title": "Número 0",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1RjHVkeXUe31oCmC6ERLoWAZSVq35UISg",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 29,
+        "Title": "Número 1",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender el dedo índice hacia arriba.",
+        "UrlImage": "1bIfGTtpNr77meQhoQmdROl5vAv2beosn",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 30,
+        "Title": "Número 2",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.",
+        "UrlImage": "1XsE6OTGLwuJRUWUiHF0EadLMLkN8xEIM",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 31,
+        "Title": "Número 3",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender el dedo pulgar y los dedos índice y el dedo medio hacia arriba.",
+        "UrlImage": "1uE5WwasPsA4rQoj6yVThTp6Vv26IA7QQ",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 32,
+        "Title": "Número 4",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice, el dedo medio, el dedo anular y el dedo meñique hacia arriba.",
+        "UrlImage": "1yGUWqJ1Q0nhxUWcg1IV-4cHXbYqk3bDV",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 33,
+        "Title": "Número 5",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante y extender los dedos de la mano.",
+        "UrlImage": "1d7MYCZPqUE0qX7MYu6SjI30xzCRUnSqg",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 34,
+        "Title": "Número 6",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo meñique se deben de tocar.",
+        "UrlImage": "1HreNlWsrTyWYaWpfMtnzjV25XPU-PIKo",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 35,
+        "Title": "Número 7",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo anular se deben de tocar.",
+        "UrlImage": "16-hNupSj2JpMKcgWGqK58DBNKiHO999B",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 36,
+        "Title": "Número 8",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo del medio se deben de tocar.",
+        "UrlImage": "1uygaAM0rFXhJkg3G-CVEvqF4rv-ceS0A",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 37,
+        "Title": "Número 9",
+        "Description": "Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo índice se deben de tocar.",
+        "UrlImage": "161_PiHCthS8zI350cb7C1KZFJW62VTmh",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 38,
+        "Title": "Número 10",
+        "Description": "Formar con la mano un puño cerrado y extender el dedo pulgar hacia arriba, luego realizar un movimiento de muñeca.",
+        "UrlImage": "1oYV-X0WUWV6XBxIUsvUF0jZFk6y7sONS",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 39,
+        "Title": "Número 11",
+        "Description": "Formar con la mano un puño cerrado y se debe de mostrar el dorso de nuestro puño, luego se debe de extender y cerrar el dedo índice.",
+        "UrlImage": "1cYsGTHmHUmhVqQC8qAk1kdn2mZjeFM4E",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 40,
+        "Title": "Número 12",
+        "Description": "Formar con la mano un puño cerrado y se debe de mostrar el dorso de nuestro puño, luego se debe de extender y cerrar los dedos índice y el dedo medio.",
+        "UrlImage": "1RGyIcsYhXf8dEUEpX5dI1RAD6srIELGe",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 41,
+        "Title": "Número 13",
+        "Description": "Formar con la mano un puño cerrado y se debe de mostrar el dorso de nuestro puño, luego se debe de extender y cerrar los dedos índice, dedo medio y el dedo pulgar.",
+        "UrlImage": "1Hbx87FEEA-9Y_0LKQNOoA7wYiT-1fP0B",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 42,
+        "Title": "Número 14",
+        "Description": "Formar con la mano un puño cerrado y se debe de mostrar el dorso de nuestro puño, luego se debe de extender y cerrar los dedos índice, dedo medio y el dedo meñique.",
+        "UrlImage": "1YdT6Ql8JUkBIH4WaLZvt4AboMWfFBxbK",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 43,
+        "Title": "Número 15",
+        "Description": "Extender la mano mostrando el dorso de la mano, luego se debe de extender y cerrar los dedos índice, dedo medio, dedo anular y el dedo meñique.",
+        "UrlImage": "17hlSTMApTc-51W4-DilGUZQPTQggPC6F",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 44,
+        "Title": "Número 16",
+        "Description": "Se debe de combinar la seña del número 10 con la seña del número 6.\n\nNúmero 10: \"Formar con la mano un puño cerrado y extender el dedo pulgar hacia arriba, luego realizar un movimiento de muñeca.\"\n\nNúmero 6: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo meñique se deben de tocar.",
+        "UrlImage": "169LjJhVNtncJ8tgT5dhj14LfJXMbq-jE",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 45,
+        "Title": "Número 17",
+        "Description": "Se debe de combinar la seña del número 10 con la seña del número 7.\n\nNúmero 10: \"Formar con la mano un puño cerrado y extender el dedo pulgar hacia arriba, luego realizar un movimiento de muñeca.\"\n\nNúmero 7: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo anular se deben de tocar.",
+        "UrlImage": "14ryJ9cPoIrUcQAjzl66Jr3h_oYfLpVOV",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 46,
+        "Title": "Número 18",
+        "Description": "Se debe de combinar la seña del número 10 con la seña del número 8.\n\nNúmero 10: \"Formar con la mano un puño cerrado y extender el dedo pulgar hacia arriba, luego realizar un movimiento de muñeca.\"\n\nNúmero 8: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo del medio se deben de tocar.",
+        "UrlImage": "1OxKsxax5mJLZcFNqerjH-5ZzCEdAoMqI",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 47,
+        "Title": "Número 19",
+        "Description": "Se debe de combinar la seña del número 10 con la seña del número 9.\n\nNúmero 10: \"Formar con la mano un puño cerrado y extender el dedo pulgar hacia arriba, luego realizar un movimiento de muñeca.\"\n\nNúmero 9: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo índice se deben de tocar.",
+        "UrlImage": "1L80f_5XolzWGj99SC74aL1L9HwUWvNca",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 48,
+        "Title": "Número 20",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 0.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1g6gLuhJmKfAk5jkSKt5eIr4lS1XwHwp8",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 49,
+        "Title": "Número 21",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 1.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 1: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender el dedo índice hacia arriba.",
+        "UrlImage": "1O6oRkkbSzKtJaUuLhr8NxM3Yiw4zJFzh",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 50,
+        "Title": "Número 22",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 2.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.",
+        "UrlImage": "104I1W6IMgJqavUNtAQavpaHXdUGudmAe",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 51,
+        "Title": "Número 23",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 3.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 3: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender el dedo pulgar y los dedos índice y el dedo medio hacia arriba.",
+        "UrlImage": "1zwFc7FNXGknRvmBfHiONXovMnomqgWWA",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 52,
+        "Title": "Número 24",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 4.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 4: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice, el dedo medio, el dedo anular y el dedo meñique hacia arriba.",
+        "UrlImage": "1Ym-AJf5cIXssieHoWkX04c93rPvcpjs6",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 53,
+        "Title": "Número 25",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 5.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 5: \"Colocar la palma de la mano de forma estirada hacia delante y extender los dedos de la mano.",
+        "UrlImage": "1wTxDHWiFy37ykTqAjNafiBaJCnLSeSLQ",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 54,
+        "Title": "Número 26",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 6.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 6: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo meñique se deben de tocar.",
+        "UrlImage": "1ToADnyDwL7O9Vajd7E6XyNsTFttklksi",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 55,
+        "Title": "Número 27",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 7.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 7: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo anular se deben de tocar.",
+        "UrlImage": "1RiFMhtNQe5Dt76-l5GahljTgKStl1ugz",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 56,
+        "Title": "Número 28",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 8.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 8: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo del medio se deben de tocar.",
+        "UrlImage": "1Krbp97bGnfOGvMxda3azJpQT3-pAdcRK",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 57,
+        "Title": "Número 29",
+        "Description": "Se debe de combinar la seña del número 2 con la seña del número 9.\n\nNúmero 2: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 9: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo índice se deben de tocar.",
+        "UrlImage": "1QNpEne0Nkxyziw8HVk-yzd39ivqltu4c",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 58,
+        "Title": "Número 30",
+        "Description": "Se debe de combinar la seña del número 3 con la seña del número 0.\n\nNúmero 3: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender el dedo pulgar y los dedos índice y el dedo medio hacia arriba.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1lBxzHXy05C5joicfYBkGcB_-Ar1QJ4rI",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 59,
+        "Title": "Número 40",
+        "Description": "Se debe de combinar la seña del número 4 con la seña del número 0.\n\nNúmero 4: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender los dedos índice, el dedo medio, el dedo anular y el dedo meñique hacia arriba.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "11Wg76_bpQo-Y5djVHj_3TnfVFRsY9Xv8",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 60,
+        "Title": "Número 50",
+        "Description": "Se debe de combinar la seña del número 5 con la seña del número 0.\n\nNúmero 5: \"Colocar la palma de la mano de forma estirada hacia delante y extender los dedos de la mano.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1c-los4ziMWDlUNbL-vV-Hm4MyqMw6aIY",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 61,
+        "Title": "Número 60",
+        "Description": "Se debe de combinar la seña del número 6 con la seña del número 0.\n\nNúmero 6: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo meñique se deben de tocar.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1jCX__kzlZIG5hL94jrqgeBsiTMA3ze9O",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 62,
+        "Title": "Número 70",
+        "Description": "Se debe de combinar la seña del número 7 con la seña del número 0.\n\nNúmero 7: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo anular se deben de tocar.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "17EGcPJXJfcUO19mUOPKM3f8v4RhD6D-q",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 63,
+        "Title": "Número 80",
+        "Description": "Se debe de combinar la seña del número 8 con la seña del número 0.\n\nNúmero 8: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo del medio se deben de tocar.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1eYimFL5a7zWUbaTLvCiypTMOry7xLj_3",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 64,
+        "Title": "Número 90",
+        "Description": "Se debe de combinar la seña del número 9 con la seña del número 0.\n\nNúmero 9: \"Colocar la palma de la mano de forma estirada hacia delante, y el dedo pulgar y el dedo índice se deben de tocar.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1SnOKEXjmU9sVrjlvC9_7SaaozzKbCR95",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 65,
+        "Title": "Número 100",
+        "Description": "Se debe de combinar la seña del número 1 con dos señas del número 0.\n\nNúmero 1: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender el dedo índice hacia arriba.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1QlYVk1h5PJjGCVekUQbk9YlU1k5IzqKT",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 66,
+        "Title": "Número 1000",
+        "Description": "Se debe de combinar la seña del número 1 con tres señas del número 0.\n\nNúmero 1: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender el dedo índice hacia arriba.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1Q6kRuUHlUEhnn8u6v5SxbbyJsVpPllT0",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 67,
+        "Title": "Número 10000",
+        "Description": "Se debe de combinar la seña del número 1 con cuatro señas del número 0.\n\nNúmero 1: \"Colocar la palma de la mano de forma estirada hacia delante y formando un puño, luego extender el dedo índice hacia arriba.\"\n\nNúmero 0: \"Colocar la palma de la mano de forma estirada hacia delante, luego flexionar los dedos formando un círculo.",
+        "UrlImage": "1ny7VhuFIb3UP39eYYol09zPCU3s6x6SD",
+        "CodeCategory": "Números"
+      },
+      {
+        "Code": 68,
+        "Title": "Hombre",
+        "Description": "Con el dedo índice sobre el labio superior indicar el lugar del bigote con un movimiento lateral.\n",
+        "UrlImage": "1kNaVLZSilUXX81Nhwi4NpwCXVK3ivQks",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 69,
+        "Title": "Mujer",
+        "Description": "Girar el índice en posición horizontal debajo del labio inferior.\n",
+        "UrlImage": "1DNhGcM6CEqP-8WusLve0UCb8db4EgR3F",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 70,
+        "Title": "Familia",
+        "Description": "Paso 1: Formar la letra “F” con ambas manos.\n\nPaso 2: Realizar un movimiento semicircular hacia adelante.\n",
+        "UrlImage": "1JCOwX5aSoof33H6txeHj--HbIgHouFcu",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 71,
+        "Title": "Mamá",
+        "Description": "Formar la letra “M” con la mano derecha a la altura del hombro, luego realizar movimientos de izquierda a derecha\n",
+        "UrlImage": "1n9fxmxg8tRVYN7cbXHZ2S7yuVAaxqDw_",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 72,
+        "Title": "Papá",
+        "Description": "Formar la letra “P” con la mano derecha a la altura del hombro, luego realizar movimientos de izquierda a derecha\n",
+        "UrlImage": "1yRcSE9_n6rWZEvxC29KOP7BlhErttcqp",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 73,
+        "Title": "Hijo",
+        "Description": "Paso 1: Formar la seña de hombre.\n\nPaso 2: Con la mano derecha en puño realizar un movimiento hacia abajo.\n",
+        "UrlImage": "10BSUcpCgAaV-R6EYnzlTB6XwnM998uW0",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 74,
+        "Title": "Hija",
+        "Description": "Paso 1: Formar la seña de mujer.\n\nPaso 2: Con la mano derecha en puño realizar un movimiento hacia abajo.\n",
+        "UrlImage": "1CDUk0et5CvCrJFmMoEiddgdTRiCpFM1B",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 75,
+        "Title": "Hermano",
+        "Description": "Paso 1: Formar la seña de hombre.\n\nPaso 2: Con el dedo pulgar de la mano derecha seguir el movimiento indicado en la muñeca de la mano izquierda\n",
+        "UrlImage": "116E7zrxJhGPt1UUJSJG5peby5k09QitC",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 76,
+        "Title": "Hermana",
+        "Description": "Paso 1: Formar la seña de mujer.\n\nPaso 2: Con el dedo pulgar de la mano derecha seguir el movimiento indicado en la muñeca de la mano izquierda.\n",
+        "UrlImage": "1tkYDeRnNC_HNv9U7y9Khc4P5aUq2uqKo",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 77,
+        "Title": "Primo",
+        "Description": "Paso 1: Formar la seña de hombre.\n\nPaso 2: Colocar la yema del índice derecho sobre el dorso del izquierdo y superponer éste con movimientos.\n",
+        "UrlImage": "1TW57bjwFGykXnDS2lkaSm17NNeB8zGwF",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 78,
+        "Title": "Esposo",
+        "Description": "Paso 1: Formar la seña de hombre.\n\nPaso 2: Realizar acción de colocar el aro en el dedo anular\n",
+        "UrlImage": "1cm4-6Tvwcf382gFYcy6FDAASHZ-dCwRE",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 79,
+        "Title": "Esposa",
+        "Description": "Paso 1: Formar la seña de mujer.\n\nPaso 2: Realizar acción de colocar el aro en el dedo anular.\n",
+        "UrlImage": "1HtOHq4TPFMdrzxKefTgpqDlqFW-mfnc5",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 80,
+        "Title": "Abuelo",
+        "Description": "Paso 1: Formar la seña de hombre.\n\nPaso 2: Con los dedos pulgar e índice coger la piel del cuello, con ligero movimiento de izquierda a derecha\n",
+        "UrlImage": "1vrEIooNFpprM3H7NHsKY4pIdTfI6dQTJ",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 81,
+        "Title": "Abuela",
+        "Description": "Paso 1: Formar la seña de mujer.\n\nPaso 2: Con los dedos pulgar e índice coger la piel del cuello, con ligero movimiento de izquierda a derecha.\n",
+        "UrlImage": "1Qy7DWXp2SJ8aWHIVZsdKKDK2z41x00yf",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 82,
+        "Title": "Tío",
+        "Description": "Formar la letra “T” a la altura de la sien con movimientos circulares.\n",
+        "UrlImage": "1-HQAGJTZ6Mi-8AiN51DjgBqarFJ5PcdR",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 83,
+        "Title": "Tía",
+        "Description": "Formar la letra “T” a la altura de la mejilla con movimientos circulares.\n",
+        "UrlImage": "1X8cpdz3IaMHDmZKhm3J6wuSMihz_cKQm",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 84,
+        "Title": "Sobrino",
+        "Description": "Formar la letra “S” con la mano derecha a la altura de la sien con movimientos circulares.\n",
+        "UrlImage": "1ksR3oGCR1hWOWFT9cK11KoX67fj3eTTh",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 85,
+        "Title": "Sobrina",
+        "Description": "Formar la letra “S” con la mano derecha a la altura de la mejilla con movimientos circulares.\n",
+        "UrlImage": "17yq67qZ_Xn4K_-PsnFGfVuvz4-3TisBz",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 86,
+        "Title": "Cuñado",
+        "Description": "Unir y separar las yemas de los dedos índice y medio de ambas manos.\n",
+        "UrlImage": "1NtPcVfYC_QUIKJrW2r2WiIG306kEHIBm",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 87,
+        "Title": "Nieto",
+        "Description": "Formar la seña de abuelo previamente, luego formar la seña de hijo.\n",
+        "UrlImage": "13Mv0eIUGr2E8Pn3zDsp4ZMUKjb5LLUPH",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 88,
+        "Title": "Amigo",
+        "Description": "Juntar ambas manos y entrelazarlas.\n",
+        "UrlImage": "1GzqwBsZQ_D91tVusVP_NJP7xda6CWNSC",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 89,
+        "Title": "Bebe",
+        "Description": "Colocar el brazo derecho sobre el brazo izquierdo, con las palmas hacia arriba, en posición horizontal y realizar movimientos de izquierda a derecha.\n",
+        "UrlImage": "1JrMIBsa8sw1rdEbE8KKqNlFAFW3XwWxK",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 90,
+        "Title": "Joven",
+        "Description": "Juntar las yemas de los dedos de la mano derecha y moverlos en forma circular.\n",
+        "UrlImage": "1m0mjM-2yCFQsD5dDBsNUqfx4QIfH_Tw_",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 91,
+        "Title": "Adulto",
+        "Description": "Llevar a la sien la mano derecha extendida y seguir el movimiento indicado.\n",
+        "UrlImage": "1SLmT6NCaEmNA7HhVtKrQSFlo1VmN1nEf",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 92,
+        "Title": "Soltero",
+        "Description": "Formar la seña de hombre previamente, luego unir el pulgar e índice de ambas manos sacudiéndolas con un giro hacia afuera.\n",
+        "UrlImage": "18UeeN_CRKJdwmzcCqBvW1Z_RWY-G4opV",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 93,
+        "Title": "Soltera",
+        "Description": "Formar la seña de mujer previamente, luego unir el pulgar e índice de ambas mano sacudiéndolas con un giro hacia afuera.\n",
+        "UrlImage": "1BgTpr63eJQknwHIFFVU4bSGaEQJRoeFg",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 94,
+        "Title": "Vecino",
+        "Description": "Formar la letra “V” con ambas manos una delante de la otra y con un movimiento circular cambiar la posición inicial.\n",
+        "UrlImage": "11e5HcNn-WWs2pKDrs7RPktwqynwZHHHG",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 95,
+        "Title": "Estudiante",
+        "Description": "Con ambas manos abiertas (seña de libro), hacer un movimiento circular, luego bajar la mano derecha con el pulgar e índice separados.\n",
+        "UrlImage": "16kiZsZAKlfPCrrSOyFYhrKUJJJUZDSfQ",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 96,
+        "Title": "Persona",
+        "Description": "Colocar los dedos pulgar e índice semiflexionados, luego realizar un movimiento de arriba hacia abajo.\n",
+        "UrlImage": "1HdVSxJk5jsSwnd1F-sKz1-z555kiarR8",
+        "CodeCategory": "Relaciones Familiares y Personales"
+      },
+      {
+        "Code": 97,
+        "Title": "Coco",
+        "Description": "Llevar la mano derecha con los dedos semiflexionados a la altura de la oreja y realizar movimientos de izquierda a derecha.\n",
+        "UrlImage": "19O7gDnW7b9pDqMkymdHoTee0UgvboaaR",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 98,
+        "Title": "Ciruela",
+        "Description": "Paso 1: Señalar los labios.\nPaso 2: Extender los dedos pulgar e índice de la mano derecha.\n",
+        "UrlImage": "1xUqeNdDZQjaS8CnZekrLvduEAXrnAsfk",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 99,
+        "Title": "Fresa",
+        "Description": "Paso 1: Colocar los dedos pulgar e índice de la mano derecha en los labios.\n\nPaso 2: Realizar un movimiento hacia adelante juntando la yema de los dedos.\n",
+        "UrlImage": "1MB4Z5JCA7rovmOISUGjMgP88ufUsY0vA",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 100,
+        "Title": "Limón",
+        "Description": "Realizar la acción de exprimir.\n",
+        "UrlImage": "1JxWHyW1F471ZpcjBfgPQO6-e8K9MzxT5",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 101,
+        "Title": "Mandarina",
+        "Description": "Paso 1: Formar la letra “M”.\n\nPaso 2: Con los dedos flexionados hacer un movimiento de rotación a la altura de los labios.\n",
+        "UrlImage": "1SmBtYu3xILGK6rE2IcUvqobOq7I0Ucjl",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 102,
+        "Title": "Mango",
+        "Description": "Flexionando los dedos de la mano derecha, apoyarlos sobre los labios, realizando un movimiento hacia abajo.\n",
+        "UrlImage": "1PIbIwDyQOOEfz0M0UnaN5gQt9KZoARHq",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 103,
+        "Title": "Manzana",
+        "Description": "Llevar la mano derecha con los dedos semiflexionados hacia la boca y realizar la acción de morder.\n",
+        "UrlImage": "1_Crz2y74CRqlFPn4EYyR7WBRz-OfWM3s",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 104,
+        "Title": "Durazno",
+        "Description": "Colocar la mano izquierda con los dedos flexionados en posición horizontal y con la mano derecha realizar acción de limpiar la fruta, luego realizar la acción de soplar.\n",
+        "UrlImage": "17RteLwqSAFJdwA9jwfiRZuaDUkx6v-fm",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 105,
+        "Title": "Naranja",
+        "Description": "Llevar la mano derecha en puño hacia la boca, luego abrir y cerrar la mano.\n",
+        "UrlImage": "1zaGNg2o18-dB3FMu5iN7diHkyQvYpLzG",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 106,
+        "Title": "Papaya",
+        "Description": "Con las manos semiflexionadas, unir las yemas de los dedos de ambas manos, simulando la forma de la papaya.\n",
+        "UrlImage": "1kizdq5YbBaL1LuqcIKxLBWLnUXf86dr1",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 107,
+        "Title": "Palta",
+        "Description": "Acercar los dedos de la mano derecha a la mano izquierda y separarlos dándole la forma de la palta.\n",
+        "UrlImage": "1hB3mxGMiLUHfRaRkB2DaTY0cCyStSsbr",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 108,
+        "Title": "Pera",
+        "Description": "Acercar las yemas de los dedos de la mano derecha en posición vertical a la mano izquierda, realizando el movimiento hacia arriba dando la forma de pera.\n",
+        "UrlImage": "1BvBJZUzS5isDD4oaqDeZWAvF5I3jfVWn",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 109,
+        "Title": "Piña",
+        "Description": "Apoyar las yemas de la mano derecha sobre la palma de la mano izquierda, realizando un movimiento hacia arriba girando la mano.\n",
+        "UrlImage": "1Qwjgo2L9I8iJj0iuz7ncdO-KZHEE6VY7",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 110,
+        "Title": "Platano",
+        "Description": "Colocar el dedo índice de la mano izquierda extendido, y con la mano derecha realizar acción de pelar el plátano.\n",
+        "UrlImage": "1rKbQJH7gt5bojejaYV-OqGm88XUnFndl",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 111,
+        "Title": "Sandia",
+        "Description": "Formar con ambas manos la figura de sandía a la altura de la boca y luego acción de botar las semillas.\n",
+        "UrlImage": "1WYjIlrzKsQhQ3fKlBfQ4GhyzLbBVocx_",
+        "CodeCategory": "Frutas"
+      },
+      {
+        "Code": 112,
+        "Title": "Uvas",
+        "Description": "Acción de coger un racimo de uvas con la mano izquierda y comer una por una con los dedos índice y pulgar de la mano derecha.\n",
+        "UrlImage": "1bhGUa3ZpdJwoycGdE794N0oYOoWnB4wn",
+        "CodeCategory": "Frutas"
+      }
+      
   ]
+
+}

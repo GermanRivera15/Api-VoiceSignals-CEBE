@@ -7,8 +7,8 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import '../Styles/Dictionary.css';
 
-import { BsStar } from "react-icons/bs";
-import { AiFillStar } from "react-icons/ai";
+// import { BsStar } from "react-icons/bs";
+// import { AiFillStar } from "react-icons/ai";
 
 
 export default class ContainerItem extends Component {
@@ -23,7 +23,7 @@ export default class ContainerItem extends Component {
         {
           this.props.estado ? (
             <div>
-              <div className='container-icon-star'>
+              {/* <div className='container-icon-star'>
 
                 {this.props.star ?
                   <BsStar
@@ -36,7 +36,7 @@ export default class ContainerItem extends Component {
                     className='star-favorite'
                   />
                 }
-              </div>
+              </div> */}
 
               <NavLink
                 to={this.props.CodeReference}>

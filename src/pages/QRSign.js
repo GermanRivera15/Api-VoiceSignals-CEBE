@@ -26,8 +26,6 @@ export default function QRSign() {
         <Card.Body className='card-body-qr-container'>
           <div className='qr-container'>
             <QRContainer section={process.env.REACT_APP_URL + '/home'} title={'INICIO'} />
-            <QRContainer section={process.env.REACT_APP_URL + '/translator-sl'} title={'TRADUCTOR DE LENGUAJE DE SEÑAS PERUANO'} />
-            <QRContainer section={process.env.REACT_APP_URL + '/login'} title={'INICIAR SESIÓN'} />
           </div>
         </Card.Body>
         </ Card>
