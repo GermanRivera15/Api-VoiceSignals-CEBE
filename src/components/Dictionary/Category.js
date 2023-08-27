@@ -28,7 +28,7 @@ export default function Category() {
     const nombreSearch = document.getElementById('value-input');
     dataVS['signs'].map(sign => (
       sign.Title === nombreSearch.value ? (
-        window.location.replace('https://voicesignalsapp.netlify.app/dictionary' + sign.CodeCategory + '/' + sign.Code)
+        window.location.replace('https://voicesignalsapp.netlify.app/dictionary/' + sign.CodeCategory + '/' + sign.Code)
         // navigate(sign.CodeCategory + "/" + sign.Code)
       ) :
 
