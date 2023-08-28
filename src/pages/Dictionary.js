@@ -12,10 +12,10 @@ export default function Dictionary() {
   const searchSignLanguage = async () => {
     const nombreSearch = document.getElementById('value-input');
     dataVS['signs'].map(sign => (
-      sign.Title === nombreSearch.value ? (
+      sign.Title.toLowerCase() === nombreSearch.value.toLowerCase() ? (
         navigate(sign.CodeCategory + "/" + sign.Code)
+        // console.log(sign.Title.toLowerCase())
       ) :
-
         console.log('No encontrado')
     ))
   }
