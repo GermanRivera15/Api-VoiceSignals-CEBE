@@ -23,30 +23,6 @@
       "Type": "Frutas",
       "UrlImage": "1SmBtYu3xILGK6rE2IcUvqobOq7I0Ucjl",
       "Vigente": 1
-    },
-    {
-      "Code": 5,
-      "Type": "Verduras",
-      "UrlImage": "1XVLQptsvOil9MUBCjBLJdVxg2K6Yb9FP",
-      "Vigente": 1
-    },
-    {
-      "Code": 6,
-      "Type": "Bebidas",
-      "UrlImage": "1gElY7qDyVjVM0Hajz7YbIPepz_k_0tWG",
-      "Vigente": 1
-    },
-    {
-      "Code": 7,
-      "Type": "Alimentos",
-      "UrlImage": "",
-      "Vigente": 1
-    },
-    {
-      "Code": 8,
-      "Type": "Cuerpo Humano",
-      "UrlImage": "",
-      "Vigente": 1
     }
   ],
 
