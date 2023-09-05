@@ -29,7 +29,7 @@ export default function NavBar() {
         <nav className="navegation">
           <NavLink to='/dictionary' onClick={handleClose}>Diccionario</NavLink>
           <NavLink to='/qr-sign' onClick={handleClose}> QR Sign</NavLink>
-          <NavLink to='/video-sign' onClick={handleClose}> Video</NavLink>
+          {/* <NavLink to='/video-sign' onClick={handleClose}> Video</NavLink> */}
         </nav>
 
         <div className="icon-bars" onClick={handleShow}>
@@ -55,7 +55,7 @@ export default function NavBar() {
               <NavLink to='/dictionary' onClick={handleClose}>Diccionario</NavLink>
               {/* <NavLink to='/learn-sl' onClick={handleClose}>Aprender Lenguaje de Señas</NavLink> */}
               <NavLink to='/qr-sign' onClick={handleClose}> QR Sign</NavLink>
-              <NavLink to='/video-sign' onClick={handleClose}> Video</NavLink>
+              {/* <NavLink to='/video-sign' onClick={handleClose}> Video</NavLink> */}
             </div>
 
           </Offcanvas.Body>

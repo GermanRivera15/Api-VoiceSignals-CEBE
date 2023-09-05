@@ -70,7 +70,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item interval={7000}>
+        {/* <Carousel.Item interval={7000}>
           <img
             className="d-block w-100"
             src={senias1}
@@ -82,7 +82,7 @@ export default function Home() {
               Traduce el lenguaje de señas utilizando la cámara de tu computadora...
             </p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
 
 
