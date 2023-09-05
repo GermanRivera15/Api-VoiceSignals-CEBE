@@ -41,7 +41,7 @@ export default class ContainerItem extends Component {
               <NavLink
                 to={this.props.CodeReference}>
 
-                <LazyLoad width={110} height={110} once >
+                <LazyLoad width={80} height={80} once >
                   <Card.Img
                     className='imageSignLanguage'
                     variant="top"
@@ -60,7 +60,7 @@ export default class ContainerItem extends Component {
 
           ) :
             <div>
-              <LazyLoad width={110} height={110} once >
+              <LazyLoad width={80} height={80} once >
                 <Card.Img className='imageSignLanguage' variant="top" src={'https://drive.google.com/uc?export=download&id=' + this.props.UrlImage} alt={this.props.Title} />
               </LazyLoad>
               <Card.Body className='card-body-sign'>
