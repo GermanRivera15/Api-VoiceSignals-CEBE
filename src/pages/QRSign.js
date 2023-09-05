@@ -15,8 +15,6 @@ export default function QRSign() {
             <QRContainer section={process.env.REACT_APP_URL + '/dictionary/Palabras%20Mágicas'} title={'PALABRAS MÁGICAS'} />
             <QRContainer section={process.env.REACT_APP_URL + '/dictionary/Relaciones%20Familiares%20y%20Personales'} title={'FAMILIA'} />
             <QRContainer section={process.env.REACT_APP_URL + '/dictionary/Frutas'} title={'FRUTAS'} />
-            <QRContainer section={process.env.REACT_APP_URL + '/dictionary/Verduras'} title={'VERDURAS'} />
-            <QRContainer section={process.env.REACT_APP_URL + '/dictionary/Bebidas'} title={'BEBIDAS'} />
           </div>
         </Card.Body>
         </ Card>
