@@ -1,30 +1,30 @@
 import React from 'react';
-import { NavLink, useLocation, useNavigate } from 'react-router-dom'
-import { BsSearch } from "react-icons/bs";
+import { NavLink, useLocation /*, useNavigate*/ } from 'react-router-dom'
+// import { BsSearch } from "react-icons/bs";
 import ContainerItem from '../components/ContainerItem';
 import dataVS from '../components/Data.json'
 import '../Styles/Dictionary.css';
 
 export default function Dictionary() {
   const location = useLocation();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const searchSignLanguage = async () => {
-    const nombreSearch = document.getElementById('value-input');
-    dataVS['signs'].map(sign => (
-      sign.Title.toLowerCase() === nombreSearch.value.toLowerCase() ? (
-        navigate(sign.CodeCategory + "/" + sign.Code)
-        // console.log(sign.Title.toLowerCase())
-      ) :
-        console.log('No encontrado')
-    ))
-  }
+  // const searchSignLanguage = async () => {
+  //   const nombreSearch = document.getElementById('value-input');
+  //   dataVS['signs'].map(sign => (
+  //     sign.Title.toLowerCase() === nombreSearch.value.toLowerCase() ? (
+  //       navigate(sign.CodeCategory + "/" + sign.Code)
+  //       // console.log(sign.Title.toLowerCase())
+  //     ) :
+  //       console.log('No encontrado')
+  //   ))
+  // }
 
   return (
     <div className='container-dictionary'>
       <h1 className='title-dictionary'>Diccionario</h1>
 
-      <div className='search'>
+      {/* <div className='search'>
         <input
           id='value-input'
           className='input-search'
@@ -35,7 +35,7 @@ export default function Dictionary() {
         <button className='button-search' onClick={searchSignLanguage}>
           <BsSearch />
         </button>
-      </div>
+      </div> */}
 
       <ul className={'container-signes'}>
         {

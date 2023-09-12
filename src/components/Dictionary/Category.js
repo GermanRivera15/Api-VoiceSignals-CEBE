@@ -5,7 +5,7 @@ import '../../Styles/Dictionary.css';
 import ClipLoader from "react-spinners/ClipLoader";
 import Nav from 'react-bootstrap/Nav';
 import dataVS from '../../components/Data.json'
-import { BsSearch } from "react-icons/bs";
+// import { BsSearch } from "react-icons/bs";
 
 
 export default function Category() {
@@ -24,17 +24,17 @@ export default function Category() {
   }, [])
 
 
-  const searchSignLanguage = async () => {
-    const nombreSearch = document.getElementById('value-input');
-    dataVS['signs'].map(sign => (
-      sign.Title === nombreSearch.value ? (
-        window.location.replace('https://voicesignalsapp.netlify.app/dictionary/' + sign.CodeCategory + '/' + sign.Code)
-        // navigate(sign.CodeCategory + "/" + sign.Code)
-      ) :
+  // const searchSignLanguage = async () => {
+  //   const nombreSearch = document.getElementById('value-input');
+  //   dataVS['signs'].map(sign => (
+  //     sign.Title === nombreSearch.value ? (
+  //       window.location.replace('https://voicesignalsapp.netlify.app/dictionary/' + sign.CodeCategory + '/' + sign.Code)
+  //       // navigate(sign.CodeCategory + "/" + sign.Code)
+  //     ) :
 
-        console.log('No encontrado')
-    ))
-  }
+  //       console.log('No encontrado')
+  //   ))
+  // }
 
   return (
     <div>
@@ -62,7 +62,7 @@ export default function Category() {
 
       <h1 className='title-sign-language'><b>{params.categoryId}</b></h1>
 
-      <div className='search'>
+      {/* <div className='search'>
         <input
           id='value-input'
           className='input-search'
@@ -73,7 +73,7 @@ export default function Category() {
         <button className='button-search' onClick={searchSignLanguage}>
           <BsSearch />
         </button>
-      </div>
+      </div> */}
 
       <div className={'contenedor'}>
         <ClipLoader color={'#2783e1'} loading={loading} size={150} className={loading ? 'Notbily' : ''} />

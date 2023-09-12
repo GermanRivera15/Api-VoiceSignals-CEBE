@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import LazyLoad from 'react-lazy-load';
 import ClipLoader from "react-spinners/ClipLoader";
+import Iframe from 'react-iframe'
 
 import Nav from 'react-bootstrap/Nav';
 
@@ -66,11 +67,24 @@ export default function SignLanguage() {
               <Card.Body>
                 <Row className="g-2 container-second">
                   <Col sm>
+                  {/* <Iframe url={"https://drive.google.com/file/d/" + dataVS['signs'][params.signId-1].Video + "/preview"} */}
+                  <Iframe 
+                  url={"https://drive.google.com/file/d/1Gy11zkKRbDFafO03EmYlBe1tNs8cAbgy/preview"}
+                    id=""
+                    className="video"
+                    display="block"
+                    position="relative"
+                    // allow="accelerometer; autoplay; full"
+                    // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                    // frameBorder="2"
+                    // allowFullScreen
+                  />
+                  </Col>
+                  <Col sm>
                     <LazyLoad className='este' width={280} height={280} once onContentVisible={() => {setLoading(false)}}>
                       <Card.Img variant="top" src={'https://drive.google.com/uc?export=download&id=' + dataVS['signs'][params.signId-1].UrlImage} alt={dataVS['signs'][params.signId-1].Title} />
                     </LazyLoad>
-                  </Col>
-                  <Col sm>
                     <Card.Text className='text-description'>
                       {dataVS['signs'][params.signId-1].Description}
                     </Card.Text>
